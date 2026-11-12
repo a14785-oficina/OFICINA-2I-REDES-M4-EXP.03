@@ -1,5 +1,3 @@
-# OFICINA-2I-REDES-M4-EXP.03
-
 # Exercício 03
 
 Página de apresentação com estilos CSS, classes reutilizáveis e seleção por ID para destaques visuais.
