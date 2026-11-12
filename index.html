@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Prático 003 - Sobre Mim</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* ---------- Regras Gerais - Tags ---------- */
+        body{
+            font-size: 10px;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h2{
+            color: red;
+        }
+        
+        /* ---------- Classes - Podem ser reutilizadas ---------- */
+        .comp-tec{
+            color: blue;
+            font-weight: 900;
+        }
+
+        .negrito{
+            font-weight: 900;
+        }
+
+        .preto{
+            color: black;
+        }
+
+        .cinza{
+            color: gray;
+        }
+
+        /* ---------- ID - Só podem ser aplicadas uma única vez ---------- */
+        #hobby h2{
+            color: green
+        }
+
+        #hobby{
+            color: green
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sobre Mim</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <img src="Designer.png" width="50%" alt="Master of All" />
+                <p>Professor/Formador na área do Desenvolvimento Web, atualmente a exercer funções numa escola profissional, com experiência na lecionação de tecnologias e ferramentas de programação web. Dedicado à formação de alunos em áreas como <span class="negrito">HTML</span>, <span class="negrito">CSS</span>, <span class="negrito">JavaScript</span>, bases de dados e desenvolvimento de aplicações web, promovendo uma aprendizagem prática e orientada para o mercado de trabalho. Comprometido com a inovação pedagógica, o desenvolvimento de competências técnicas e a preparação dos alunos para os desafios do setor tecnológico.</p>
+            </article>
+        </section>
+        <section>
+            <h2 class="comp-tec"> Competências Técnicas</h2>
+            <ul>
+                <li><span class="preto">Manutenção de computadores isolados ou inseridos numa rede local</span></li>
+                <li><span class="cinza">Manutenção de políticas de segurança em sistemas informáticos</span></li>
+                <li><span class="preto">Manutenção de aplicações informáticas</span></li>
+                <li><span class="cinza">Análise de sistemas de informação</span></li>
+                <li><span class="preto">Desenvolver aplicações informáticas</span></li>
+                <li><span class="cinza">Conceber bases de dados</span></li>
+                <li><span class="preto">Manipular bases de dados</span></li>
+                <li><span class="cinza">Desenvolvimento de Software</span></li>
+                <li><span class="preto">Construção de páginas e sítios na Internet</span></li>
+                <li><span class="cinza">Desenvolvimento de APP´s</span></li>
+                <li><span class="preto">Construção de jogos</span></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Softskills</h2>
+            <ul>
+                <li>Comunicação</li>
+                <li>Trabalho em equipa</li>
+                <li>Pontualidade</li>
+                <li>Responsabilidade</li>
+            </ul>
+        </section>
+        <section id="hobby">
+            <h2>Hobby</h2>
+            <ul>
+                <li>Praticar BTT</li>
+                <li>Jogar às cartas</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="comp-tec">Contactos</h2>
+            <ul>
+                <li>Email: <a href="mailto:pedropaiva@oficina.pt">pedropaiva@oficina.pt</a></li>
+                <li>Telefone: <a href="tel:+351 912 546 854">+351 912 546 854</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Trabalho realizado por Pedro Paiva &copy; 2026</p>
+    </footer>
+</body>
+</html>
